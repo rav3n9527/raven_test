@@ -1,0 +1,15 @@
+Origin: 哔哔小子测试源
+Label: 哔哔小子测试源
+Suite: stable
+Version: 1.0
+Codename: stable
+Date: 二, 23  6 2026 01:39:19 UTC
+Architectures: iphoneos-arm64
+Description: 哔哔小子测试源
+
+MD5Sum:
+ 148e4cd707d46228e236e674c578bc4d 558 Packages
+ 36aa34b9f17b1878400675dd2001e4c4 500 Packages.bz2
+SHA256:
+ 29afbe80f5739c244646402a2677f7425eabd26395d478cf7dfc1f76197fa124 558 Packages
+ 7f5a7c8a610f824cf89cd44d2fe0977ab81f195746dfcb53470e8256a52109ef 500 Packages.bz2

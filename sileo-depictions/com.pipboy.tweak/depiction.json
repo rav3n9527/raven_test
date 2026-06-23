@@ -1,0 +1,58 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "headerImage": "",
+  "tintColor": "#ff9f0a",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "哔哔小子 (PipBoy)"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "iOS 15+ 多任务增强插件",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "在应用切换器中注入毛玻璃控制面板，一键**关闭所有后台**，实时显示**内存和存储**状态，支持**下滑锁定白名单**。安装后无需任何设置，打开多任务切换器即可使用。",
+          "useSpacing": true,
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "PipBoy Dev"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "查看源码",
+          "action": "https://github.com/rav3n9527/pipboy"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0 — 初始发布"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 毛玻璃控制面板，居中显示内存/存储信息\n- 一键关闭所有后台应用\n- 下滑卡片锁定/解锁白名单\n- 自动保护正在播放媒体的应用\n- 支持 iOS 15+ rootless 越狱",
+          "useSpacing": true,
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}

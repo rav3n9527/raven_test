@@ -1,0 +1,15 @@
+Package: com.pipboy.tweak
+Version: 1.0.19
+Architecture: iphoneos-arm64
+Maintainer: PipBoy Dev
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pipboy.tweak_1.0.19_iphoneos-arm64.deb
+Size: 28606
+MD5sum: 487288c914b61c0228beae6236819465
+SHA1: 5459e268a6de57a652aea7a6dceb81770476ed7a
+SHA256: 6e9b4c52edc88836b6e8739070e54443a67cc053a117da2e732c4843dac80807
+Section: Tweaks
+Description: 多任务增强插件 - 关闭所有后台、内存/存储显示、白名单锁定
+Author: PipBoy Dev
+Name: 哔哔小子

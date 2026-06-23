@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>哔哔小子</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,sans-serif; background:#f2f2f7; color:#1c1c1e; padding:24px 16px 60px; max-width:640px; margin:0 auto; }
+  @media (prefers-color-scheme:dark) { body{background:#000;color:#f2f2f7;} .card{background:#1c1c1e;} .feature{background:#2c2c2e;} }
+  .card { background:#fff; border-radius:20px; padding:28px 20px; margin-bottom:20px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+  .icon-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+  .icon { width:56px;height:56px; border-radius:16px; background:linear-gradient(135deg,#0a0a0a,#2a2a2a); display:flex;align-items:center;justify-content:center; font-size:28px; }
+  h1 { font-size:24px; font-weight:700; }
+  .subtitle { font-size:14px; color:#8e8e93; margin-top:2px; }
+  .desc { font-size:15px; line-height:1.6; color:#636366; margin:14px 0 0; }
+  @media (prefers-color-scheme:dark) { .desc{color:#aeaeb2;} }
+  .features { display:flex; flex-wrap:wrap; gap:10px; }
+  .feature { background:#f2f2f7; border-radius:12px; padding:14px 16px; flex:1 1 calc(50% - 5px); min-width:140px; font-size:14px; font-weight:500; display:flex;align-items:center; gap:8px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon-row">
+    <div class="icon">📟</div>
+    <div><h1>哔哔小子</h1><div class="subtitle">PipBoy · 测试版</div></div>
+  </div>
+  <p class="desc">多任务增强插件 — 关闭所有后台、实时系统信息、下滑锁定白名单。此为测试版本，可能有未知问题。</p>
+</div>
+<div class="card">
+  <h2 style="font-size:18px;font-weight:600;margin-bottom:14px">功能</h2>
+  <div class="features">
+    <div class="feature">🗑 关闭所有后台</div>
+    <div class="feature">📊 内存 / 存储</div>
+    <div class="feature">🔒 锁定白名单</div>
+    <div class="feature">⚙️ 设置面板</div>
+  </div>
+</div>
+</body>
+</html>
